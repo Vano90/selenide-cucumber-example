@@ -13,9 +13,8 @@ public class MacPage {
         $x("//span[text()='"+string+"']/..").click();
     }
 
-
-    @Тогда("появляется страница с на которой есть иконка с текстом {string}")
-    public void появляетсяСтраницаСНаКоторойЕстьИконкаСТекстом(String string) {
+    @Тогда("появляется страница на которой есть иконка с текстом {string}")
+    public void появляетсяСтраницаНаКоторойЕстьИконкаСТекстом(String string) {
         $x("//li[@class='chapternav-item chapternav-item-macbook-air']//span").shouldHave(text(string));
     }
 }
