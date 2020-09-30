@@ -1,2 +1,4 @@
 /selenide-cucumber-example.iml
 /.idea/
+/target/
+/build/
